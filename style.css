@@ -1,0 +1,60 @@
+/* Reset de estilos padrão para elementos HTML */
+body, h2, input, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Defina a fonte global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilize o título */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilize os campos de entrada */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilize o botão */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilize o contêiner principal */
+#etanol, #gasolina, button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #etanol, #gasolina, button {
+        width: 100%;
+    }
+}
